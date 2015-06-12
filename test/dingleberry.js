@@ -55,4 +55,19 @@ describe('dingleberry', function() {
       assert.deepEqual(_.pluck(list, 'id'), [2, 42, 21 ]);
     });
   });
+
+  describe('curry', function() {
+    it('should curry fn at least once', function() {
+      var add = _.curry(function(a, b) {
+        return a + b;
+      });
+      assert(add(1)(2) === 3);
+    });
+    it('should curry all args', function() {
+      var add = _.curry(function(a, b) {
+        return a + b;
+      });
+      assert(add(1, 2) === 3);
+    });
+  });
 });

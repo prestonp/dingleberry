@@ -29,6 +29,7 @@ add1mult2(7); // 16
 * debounce(fn, interval)
 * pipeline(fn, fn, ...) (alias compose)
 * pluck(list, property)
+* curry(fn)
 
 More coming soon
 
