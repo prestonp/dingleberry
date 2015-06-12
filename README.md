@@ -8,13 +8,13 @@ and more.
 
 Why? Mostly as an exercise in learning es2015. That's p much it.
 
-### Usage
+### Install
 
 ```shell
 npm install dingleberry
 ```
 
-es5
+### Usage
 
 ```js
 var _ = require('dingleberry');
