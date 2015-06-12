@@ -1,4 +1,4 @@
-# dingleberry [![Build Status](https://travis-ci.org/goodybag/mongo-sql.svg?branch=master)](https://travis-ci.org/goodybag/mongo-sql)
+# dingleberry [![Build Status](https://travis-ci.org/prestonp/dingleberry.svg?branch=master)](https://travis-ci.org/prestonp/dingleberry)
 
 > collection of fun utility functions
 
