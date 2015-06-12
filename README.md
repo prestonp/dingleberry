@@ -1,20 +1,18 @@
-# dingleberry [![Build Status](https://travis-ci.org/goodybag/mongo-sql.svg?branch=master)](https://travis-ci.org/goodybag/mongo-sql)
-
+# dingleberry [![Build Status](https://travis-ci.org/prestonp/dingleberry.svg?branch=master)](https://travis-ci.org/prestonp/dingleberry)
 
 > collection of fun utility functions
 
-Covers a subset of useful functions from utility libs like debounce, compose
-and more.
+Covers a subset of useful functions from utility libs like underscore, lodash, and async
 
-Why? Mostly as an exercise in learning es2015. That's p much it.
+Why? Mostly as an exercise in learning ES2015. That's p much it.
 
-### Usage
+### Install
 
 ```shell
 npm install dingleberry
 ```
 
-es5
+### Usage
 
 ```js
 var _ = require('dingleberry');
